@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormDangNhap</class>
+ <widget class="QWidget" name="FormDangNhap">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Đăng nhập</string>
+  </property>
+  <layout class="QVBoxLayout" name="layout_chinh">
+   <item>
+    <widget class="QLabel" name="nhan_tai_khoan">
+     <property name="text">
+      <string>Tài khoản:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="o_nhap_tai_khoan">
+     <property name="placeholderText">
+      <string>Nhập tài khoản...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="nhan_mat_khau">
+     <property name="text">
+      <string>Mật khẩu:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="o_nhap_mat_khau">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Nhập mật khẩu...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="nut_dang_nhap">
+     <property name="text">
+      <string>Đăng nhập</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
